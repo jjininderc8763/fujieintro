@@ -36,6 +36,11 @@ button {
   outline: none;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .Home:hover {
   background-color: #0d2736;
 }
@@ -159,6 +164,7 @@ button {
 }
 
 .p1_contact {
+  color: white;
   border: solid 4px;
   border-color: #03e9f4;
   border-radius: 15px;
@@ -169,7 +175,6 @@ button {
   font-size: 2vw;
   font-weight: bolder;
   background: transparent;
-  color: white;
   transition: 0.5s;
 }
 
@@ -376,10 +381,10 @@ button {
 }
 
 .title1_bg_content {
-  padding-top: 7px;
-  margin: 0;
+  padding-top: 3px;
+  margin: 5px;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.8vw;
   color: white;
 }
 
@@ -523,10 +528,10 @@ button {
 }
 
 .title2_bg_content {
-  padding-top: 7px;
-  margin: 0;
+  padding-top: 3px;
+  margin: 5px;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.8vw;
   color: white;
 }
 
@@ -671,10 +676,10 @@ button {
 }
 
 .title3_bg_content {
-  padding-top: 7px;
-  margin: 0;
+  padding-top: 3px;
+  margin: 5px;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.8vw;
   color: white;
 }
 
@@ -756,10 +761,10 @@ button {
 }
 
 .title4_bg_content {
-  padding-top: 7px;
-  margin: 0;
+  padding-top: 3px;
+  margin: 5px;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.8vw;
   color: white;
 }
 
@@ -904,10 +909,10 @@ button {
 }
 
 .title5_bg_content {
-  padding-top: 7px;
-  margin: 0;
+  padding-top: 3px;
+  margin: 5px;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.8vw;
   color: white;
 }
 
@@ -1052,10 +1057,10 @@ button {
 }
 
 .title6_bg_content {
-  padding-top: 7px;
-  margin: 0;
+  padding-top: 3px;
+  margin: 5px;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.8vw;
   color: white;
 }
 
@@ -1064,7 +1069,7 @@ button {
   background: url("https://jjininderc8763.github.io/self_intro_pic/page4.jpg");
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 75vw;
   background-attachment: fixed;
 }
 
@@ -1073,7 +1078,7 @@ button {
   margin: 0;
   padding: 0;
   background: rgba(0, 0, 0, 0.7);
-  height: 800px;
+  height: 100%;
 }
 
 .worksboard {
@@ -1086,14 +1091,22 @@ button {
   height: 80%;
 }
 
+.worksboard img {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
 .pro_box1 {
   box-sizing: border-box;
   border: solid 3px #00f1fa;
   position: relative;
   margin: 0;
   padding: 0;
-  width: 20%;
-  height: 40%;
+  width: 15vw;
+  height: 15vw;
   left: 0;
   top: 0;
 }
@@ -1201,21 +1214,14 @@ button {
   border-radius: 50px;
 }
 
-.ring_three img {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
-
 .pro_box2 {
   box-sizing: border-box;
   border: solid 3px #00f1fa;
   position: absolute;
   margin: 0;
   padding: 0;
-  width: 20%;
-  height: 40%;
+  width: 15vw;
+  height: 15vw;
   left: 27%;
   top: 0;
 }
@@ -1319,7 +1325,6 @@ button {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
   transition: 1s;
   border-radius: 50px;
 }
@@ -1330,8 +1335,8 @@ button {
   position: absolute;
   margin: 0;
   padding: 0;
-  width: 20%;
-  height: 40%;
+  width: 15vw;
+  height: 15vw;
   right: 27%;
   top: 0;
 }
@@ -1435,7 +1440,6 @@ button {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
   transition: 1s;
   border-radius: 50px;
 }
@@ -1446,8 +1450,8 @@ button {
   position: absolute;
   margin: 0;
   padding: 0;
-  width: 20%;
-  height: 40%;
+  width: 15vw;
+  height: 15vw;
   right: 0;
   top: 0;
 }
@@ -1551,7 +1555,6 @@ button {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
   transition: 1s;
   border-radius: 50px;
 }
@@ -1562,8 +1565,8 @@ button {
   position: absolute;
   margin: 0;
   padding: 0;
-  width: 20%;
-  height: 40%;
+  width: 15vw;
+  height: 15vw;
   left: 0;
   bottom: 0;
 }
@@ -1667,7 +1670,6 @@ button {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
   transition: 1s;
   border-radius: 50px;
 }
@@ -1678,8 +1680,8 @@ button {
   position: absolute;
   margin: 0;
   padding: 0;
-  width: 20%;
-  height: 40%;
+  width: 15vw;
+  height: 15vw;
   left: 27%;
   bottom: 0;
 }
@@ -1783,7 +1785,6 @@ button {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
   transition: 1s;
   border-radius: 50px;
 }
@@ -1794,8 +1795,8 @@ button {
   position: absolute;
   margin: 0;
   padding: 0;
-  width: 20%;
-  height: 40%;
+  width: 15vw;
+  height: 15vw;
   right: 27%;
   bottom: 0;
 }
@@ -1899,7 +1900,6 @@ button {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
   transition: 1s;
   border-radius: 50px;
 }
@@ -1910,8 +1910,8 @@ button {
   position: absolute;
   margin: 0;
   padding: 0;
-  width: 20%;
-  height: 40%;
+  width: 15vw;
+  height: 15vw;
   right: 0;
   bottom: 0;
 }
@@ -2015,7 +2015,470 @@ button {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
+  transition: 1s;
+  border-radius: 50px;
+}
+
+.pro_box9 {
+  box-sizing: border-box;
+  border: solid 3px #00f1fa;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 22.5vw;
+  width: 15vw;
+  height: 15vw;
+  left: 0;
+  bottom: 0;
+}
+
+.ring9_one {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #53f1fa;
+  transition: 0.5s;
+}
+
+.pro_box9:hover .ring9_one {
+  transform: translate(10%, 10%);
+  animation-name: color_turn2;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 10px;
+}
+
+.ring9_two {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+.pro_box9:hover .ring9_two {
+  transform: translate(-10%, -10%);
+  background: rgba(28, 85, 117, 0.8);
+  animation-duration: 1.5s;
+}
+
+.flash9-1 {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 4%;
+}
+
+.flash9-1 a flash {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #03e9f4, transparent);
+  animation: flash8-1_an 1s linear infinite;
+}
+
+@keyframes flash9-1_an {
+  0% {
+    left: 100%;
+  }
+  50%, 100% {
+    left: -100%;
+  }
+}
+.flash9-2 {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 3.5%;
+  height: 100%;
+}
+
+.flash9-2 a flash {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: flash8-2_an 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes flash9-2_an {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+.ring_three9 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  border-radius: 50px;
+}
+
+.pro_box10 {
+  box-sizing: border-box;
+  border: solid 3px #00f1fa;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 22.5vw;
+  width: 15vw;
+  height: 15vw;
+  left: 27%;
+  bottom: 0;
+}
+
+.ring10_one {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #53f1fa;
+  transition: 0.5s;
+}
+
+.pro_box10:hover .ring10_one {
+  transform: translate(10%, 10%);
+  animation-name: color_turn2;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 10px;
+}
+
+.ring10_two {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+.pro_box10:hover .ring10_two {
+  transform: translate(-10%, -10%);
+  background: rgba(28, 85, 117, 0.8);
+  animation-duration: 1.5s;
+}
+
+.flash10-1 {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 4%;
+}
+
+.flash10-1 a flash {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #03e9f4, transparent);
+  animation: flash8-1_an 1s linear infinite;
+}
+
+@keyframes flash10-1_an {
+  0% {
+    left: 100%;
+  }
+  50%, 100% {
+    left: -100%;
+  }
+}
+.flash10-2 {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 3.5%;
+  height: 100%;
+}
+
+.flash10-2 a flash {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: flash8-2_an 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes flash10-2_an {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+.ring_three10 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  border-radius: 50px;
+}
+
+.pro_box11 {
+  box-sizing: border-box;
+  border: solid 3px #00f1fa;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 22.5vw;
+  width: 15vw;
+  height: 15vw;
+  right: 27%;
+  bottom: 0;
+}
+
+.ring11_one {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #53f1fa;
+  transition: 0.5s;
+}
+
+.pro_box11:hover .ring11_one {
+  transform: translate(10%, 10%);
+  animation-name: color_turn2;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 10px;
+}
+
+.ring11_two {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+.pro_box11:hover .ring11_two {
+  transform: translate(-10%, -10%);
+  background: rgba(28, 85, 117, 0.8);
+  animation-duration: 1.5s;
+}
+
+.flash11-1 {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 4%;
+}
+
+.flash11-1 a flash {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #03e9f4, transparent);
+  animation: flash8-1_an 1s linear infinite;
+}
+
+@keyframes flash11-1_an {
+  0% {
+    left: 100%;
+  }
+  50%, 100% {
+    left: -100%;
+  }
+}
+.flash11-2 {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 3.5%;
+  height: 100%;
+}
+
+.flash11-2 a flash {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: flash8-2_an 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes flash11-2_an {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+.ring_three11 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  border-radius: 50px;
+}
+
+.pro_box12 {
+  box-sizing: border-box;
+  border: solid 3px #00f1fa;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 22.5vw;
+  width: 15vw;
+  height: 15vw;
+  right: 0;
+  bottom: 0;
+}
+
+.ring12_one {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #53f1fa;
+  transition: 0.5s;
+}
+
+.pro_box12:hover .ring12_one {
+  transform: translate(10%, 10%);
+  animation-name: color_turn2;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 10px;
+}
+
+.ring12_two {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+.pro_box12:hover .ring12_two {
+  transform: translate(-10%, -10%);
+  background: rgba(28, 85, 117, 0.8);
+  animation-duration: 1.5s;
+}
+
+.flash12-1 {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 4%;
+}
+
+.flash12-1 a flash {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #03e9f4, transparent);
+  animation: flash8-1_an 1s linear infinite;
+}
+
+@keyframes flash12-1_an {
+  0% {
+    left: 100%;
+  }
+  50%, 100% {
+    left: -100%;
+  }
+}
+.flash12-2 {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 3.5%;
+  height: 100%;
+}
+
+.flash12-2 a flash {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: flash8-2_an 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes flash12-2_an {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+.ring_three12 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
   transition: 1s;
   border-radius: 50px;
 }
@@ -2025,22 +2488,20 @@ button {
   padding: 0;
   position: absolute;
   width: 100%;
-  height: 150px;
+  height: 100px;
   background: silver;
 }
 
 .contactboard {
   position: relative;
-  height: 35%;
-  width: 80%;
-  left: 10%;
-  top: 30%;
+  padding-top: 2vw;
+  margin: 0;
 }
 
 .gmail a {
   position: absolute;
-  height: 100%;
-  width: 5%;
+  height: 2vw;
+  width: 2vw;
   left: 20%;
   background: url("https://jjininderc8763.github.io/self_intro_pic/gmail.png") no-repeat center/contain;
   background-size: cover;
@@ -2049,8 +2510,8 @@ button {
 
 .line a {
   position: absolute;
-  height: 100%;
-  width: 5%;
+  height: 2vw;
+  width: 2vw;
   left: 45%;
   background: url("https://jjininderc8763.github.io/self_intro_pic/line.png") no-repeat center/contain;
   background-size: cover;
@@ -2059,8 +2520,8 @@ button {
 
 .fb a {
   position: absolute;
-  height: 100%;
-  width: 5%;
+  height: 2vw;
+  width: 2vw;
   right: 20%;
   background: url("https://jjininderc8763.github.io/self_intro_pic/fb.png") no-repeat center/contain;
   background-size: cover;
